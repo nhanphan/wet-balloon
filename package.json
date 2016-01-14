@@ -1,0 +1,29 @@
+{
+  "name": "wet-balloon",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nhanphan/wet-balloon",
+  "main" : "server/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nhanphan/wet-balloon"
+  },
+  "bugs": {
+    "url": "https://github.com/nhanphan/wet-balloon/issues"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "helmet": "^1.1.0",
+    "jade": "^1.11.0",
+    "lodash": "^4.0.0",
+    "shortid": "^2.2.4",
+    "socket.io": "^1.4.4"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "0.10.38"
+  },
+  "private": true,
+  "scripts" : {
+    "start" : "node server/server.js"
+  }
+}
